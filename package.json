@@ -1,0 +1,50 @@
+{
+  "name": "todomvc",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "postinstall": "gulp build --production",
+    "start": "node src/server",
+    "test": "gulp test"
+  },
+  "engines": {
+    "node": "0.10.x"
+  },
+  "dependencies": {
+    "babel": "^4.0.1",
+    "babel-core": "^4.0.1",
+    "babel-jest": "^4.0.0",
+    "babel-loader": "^4.0.0",
+    "bluebird": "^2.9.9",
+    "classnames": "^1.1.4",
+    "compression": "^1.4.0",
+    "css-loader": "^0.9.1",
+    "del": "^1.1.1",
+    "eventemitter3": "^0.1.6",
+    "express": "^4.11.2",
+    "extract-text-webpack-plugin": "^0.3.8",
+    "flux": "^2.0.1",
+    "gulp": "^3.8.10",
+    "gulp-bg": "0.0.5",
+    "gulp-util": "^3.0.2",
+    "harmonize": "^1.4.1",
+    "immutable": "^3.6.2",
+    "jest-cli": "^0.4.0",
+    "less-loader": "^2.0.0",
+    "node-notifier": "^4.1.0",
+    "piping": "^0.1.6",
+    "react": "^0.12.2",
+    "react-document-title": "^1.0.0",
+    "react-hot-loader": "^1.1.4",
+    "react-router": "^0.12.0",
+    "run-sequence": "^1.0.2",
+    "sass-loader": "^1.0.2",
+    "style-loader": "^0.8.3",
+    "stylus-loader": "^0.6.0",
+    "todomvc-app-css": "^1.0.0",
+    "todomvc-common": "^1.0.0",
+    "webpack": "^1.5.3",
+    "webpack-dev-server": "^1.7.0",
+    "yargs": "^3.3.1"
+  }
+}

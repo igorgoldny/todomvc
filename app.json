@@ -1,0 +1,10 @@
+{
+  "name": "todomvc",
+  "description": "todomvc",
+  "env": {
+   "NODE_ENV": "production"
+  },
+  "repository": "https://github.com/steida/todomvc",
+  "logo": "https://cloud.githubusercontent.com/assets/66249/5931133/9e973dfc-a699-11e4-83bc-7b5c6fb58bfd.jpeg",
+  "keywords": ["node", "reactjs", "todomvc"]
+}
